@@ -1,0 +1,74 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Re-Tailor - Accueil{% endblock %}
+
+{% block body %}
+    
+    <header class="hero-section d-flex flex-column justify-content-end text-center text-white" style="padding-bottom: 60px;">
+        <div class="container">
+            <div class="border border-1 hero-box d-inline-block rounded-4">
+                <h1 class="display-3 fw-normal text-uppercase mb-4" style="font-family: serif;">
+                    L'Élégance Durable À <br> Menton
+                </h1>
+                <a href="#" class="btn btn-outline-light rounded-0 px-5 py-3 text-uppercase fw-light">
+                    Découvrir la collection
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="container py-5">
+        <h2 class="text-center text-uppercase mb-5 fw-normal">Nos Services Uniques</h2>
+        
+        <div class="row g-4"> 
+            <div class="col-md-6">
+                <div class="border border-1 rounded-4 p-4 bg-black text-white h-100 text-start">
+                    <img src="images/service1.png" class="img-service mb-4" alt="Confection sur mesure">
+                    <h3 class="h5 text-uppercase mb-3">Confection sur-mesure</h3>
+                    <p class="fw-light small mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="#" class="btn btn-outline-light rounded-0 text-uppercase btn-sm">En savoir plus</a>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="border border-1 rounded-4 p-4 bg-black text-white h-100 text-start">
+                    <img src="images/service2.png" class="img-service mb-4" alt="Seconde vie et reprise">
+                    <h3 class="h5 text-uppercase mb-3">Seconde vie & Reprise</h3>
+                    <p class="fw-light small mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="#" class="btn btn-outline-light rounded-0 text-uppercase btn-sm">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <h2 class="text-center text-uppercase mb-5 fw-normal">Explorez nos collections</h2>
+        
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="border border-1 p-3 bg-black text-white h-100 text-center">
+                    <img src="images/collectionhomme.png" class="img-collection border border-1 border-white mb-3" alt="Homme">
+                    <h3 class="h5 text-uppercase mb-3">Homme</h3>
+                    <a href="#" class="btn btn-outline-light rounded-0 text-uppercase btn-sm">Voir tout</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="border border-1 p-3 bg-black text-white h-100 text-center">
+                    <img src="images/collectionfemme.png" class="img-collection border border-1 border-white mb-3" alt="Femme">
+                    <h3 class="h5 text-uppercase mb-3">Femme</h3>
+                    <a href="#" class="btn btn-outline-light rounded-0 text-uppercase btn-sm">Voir tout</a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="border border-1 p-3 bg-black text-white h-100 text-center">
+                    <img src="images/collectionenfant.png" class="img-collection border border-1 border-white mb-3" alt="Enfant">
+                    <h3 class="h5 text-uppercase mb-3">Enfant</h3>
+                    <a href="#" class="btn btn-outline-light rounded-0 text-uppercase btn-sm">Voir tout</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
